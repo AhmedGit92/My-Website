@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="icon" href="images/coding.png">
+    <title>Document</title>
+
+    <style>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+  
+    .header {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+   
+        background-color: #060505;
+    }
+
+  
+
+    .header h1{
+        font-size: 4.2rem;
+        color: #c53f3f;
+    }
+    .header span{
+        color: white;
+    }
+    .header h4{
+        color: white;
+        font-size: 2.0em;
+    }
+
+    .header label{
+        color: #c53f3f;
+    }
+   .header button{
+    margin-top: 5px;
+    padding: 10px 70px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 0;
+    border-radius: 20px;
+   }
+   .header button:hover{
+    background-color: #c53f3f;
+    color: white;
+ 
+   }
+
+.SocialMedia{
+ font-size: 25px;
+ margin: 20px;
+    
+   }
+
+.SocialMedia a span:hover{
+color: #c53f3f;
+
+    
+   }
+ 
+   .footer{
+        width: 100vw;
+        height: 60vh;
+        display: flex;
+        justify-content: space-evenly;
+     
+        align-items: center;
+        background-color: #0a1824;
+       
+    }
+
+    .AboutMe{
+        display: flex;
+    flex-direction: column; 
+    
+    }
+  
+    .AboutMe a{
+       color: white;
+       text-decoration: none;
+       font-size: 1.2rem;
+       
+    }
+    .AboutMe  span{
+font-size: 1.2rem;
+margin-right: 10px;
+    }
+    .AboutMe a span:hover{
+        color: #c53f3f;
+       
+    }
+    @media only screen and (max-width:620px){
+    .header{
+    display: flex;
+ flex-direction: column-reverse;
+
+   }
+ 
+   .header h1{
+    font-size: 2.2rem;
+   
+   }
+
+   .header h4{
+    font-size: 1.0em;
+   
+   }
+
+   .footer{
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: column;
+ 
+  
+  
+ 
+   
+}
+}
+
+    </style>
+
+</head>
+<body>
+    <section class="header">
+      
+     <div class="content">
+        <h1>H' <span>Ahmed Theeb</span></h1>
+       <h4>SoftWare <label>Engineering</label></h4>
+        <div><button>start now</button></div>
+        <div class="SocialMedia">
+            <a href=""><span class="fa-brands fa-facebook"></span></a>
+            <a href=""><span class="fa-brands fa-whatsapp"></span></a>
+            
+        </div>
+     </div>
+       
+     <div>
+
+        <img src="coding.png" width="300px">
+     </div>
+    </section>
+
+
+    <section class="footer">
+      
+           
+                <div >
+                    <img src="web.png" width="300px">
+                 </div>
+          
+                 <div class="AboutMe">
+                    <a href="mailto:"><span class="fa-solid fa-phone"></span>0977868764</a>
+                    <a href="tell" ><span class="fa-solid fa-envelope"></span>test@gmail.com</a>
+                       </div>
+            
+       </section>
+ 
+</body>
+</html>
